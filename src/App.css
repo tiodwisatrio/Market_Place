@@ -1,0 +1,377 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.background{
+  background-color: #f6f9fc;
+  padding: 50px 0;
+}
+
+.container{
+  max-width: 90%;
+  margin: auto;
+}
+
+.d_flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.c_flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.f_flex{
+  display: flex; 
+}
+
+a{
+  text-decoration: none;
+  color: #323232;
+}
+
+li{
+  list-style: none;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.capitalize{
+  text-transform: capitalize;
+}
+
+.RText{
+  text-align: right;
+}
+
+input, button{
+  border: none;
+  outline: none;
+  background-color: none;
+}
+
+.row{
+  width: 50%;
+}
+
+.icon-circle{
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #f3f5f9;
+  margin-left: 20px;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.boxShadow{
+  box-shadow: rgb(43 52 69 / 10%) 0 4px 16px;
+}
+
+.discount{
+  position:absolute;
+  color: #fff;
+  top:0;
+  left: 0;
+  background: #f26e11;
+  padding: 4px 15px;
+  font-size: 14px;
+  border-radius: 50px;
+  margin: 10px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+/* ----------Category--------- */
+.contentWidth{
+  width: 77%;
+}
+.category{
+  width: 23%;
+  box-shadow: rgb(43 52 69 / 10%) 0 4px 16px;
+  height: 510px;
+  padding: 15px 0;
+  border-radius: 5px ;
+  margin-top: 5px;
+  -webkit-border-radius: 5px ;
+  -moz-border-radius: 5px ;
+  -ms-border-radius: 5px ;
+  -o-border-radius: 5px ;
+}
+
+.category img{
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  object-fit: contain;
+}
+
+.category span{
+  margin: 10px 20px;
+  text-transform: capitalize;
+}
+
+.category .box{
+  transition: 0.5s;
+  padding: 0 20px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.category .box:hover{
+  background-color: #fff2e8;
+  cursor: pointer;
+}
+
+/* ----------Category end--------- */
+
+.btn-primary{
+  width: 400px;
+  height: 64px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  background-color: #f26e11;
+  padding: 13px 40px;
+  font-weight: bold;
+  color: #fff;
+  transition: all 0.5s;
+  margin-top: 32px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.btn-primary:hover{
+  background-color: #fff;
+  color: #f26e11;
+  border: 1px solid #f26e11;
+}
+
+.top{
+  margin-top: 80px;
+}
+
+.mtop{
+  margin-top: 40px;
+}
+
+.heading i{
+  color: #f26e11;
+  margin: 10px;
+}
+
+/* --------Product-------- */
+.product{
+  /* background: #fff; */
+  margin: 16px;
+  padding: 20px;
+  position: relative;
+  border-radius: 16px;
+  box-shadow: rgb(3 0 71 / 10%) 0 1px 3px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  transition: all 0.2s ease-in ;
+  -webkit-transition: all 0.2s ease-in ;
+  -moz-transition: all 0.2s ease-in ;
+  -ms-transition: all 0.2s ease-in ;
+  -o-transition: all 0.2s ease-in ;
+}
+
+.product:hover{
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+.product h3{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.product .rate i{
+  font-size: 15px;
+  color: #ffcd4e;
+  margin: 4px 4px 4px 0;
+}
+
+.product .price{
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  color: #f26e11;
+  font-size: 24px;
+}
+
+.product button{
+  background: none;
+  color: #f26e11;
+  border: 1px solid #f26e11;
+  font-size: 20px;
+  width: 35px;
+  height: 35px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+.product button:hover{
+  background-color: #f26e11;
+  color: white;
+  cursor: pointer;
+
+}
+
+.product-like{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  opacity: 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.product-like label {
+  background-color: #0f3460;
+  padding: 1px 10px;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  
+}
+
+.product-like i{
+  font-size: 20px;
+  margin: 10px 3px;
+}
+
+/* .product:hover .product-like{
+  opacity: 1;
+  cursor: pointer;
+} */
+
+
+
+/* --------Product End-------- */
+
+/* ----------Control-----------*/
+.control-btn .next,
+.control-btn .prev {
+  position: absolute;
+  top: 40%;
+  width: 50px;
+  height: 50px;
+  line-height: 55px;
+  background-color: #f26e11;
+  border-radius: 50%;
+  transition: 0.5s;
+  z-index: 5;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.control-btn .prev{
+  left: -20px;
+  
+}
+
+.control-btn .next{
+  right: -20px;
+}
+
+.control-btn .next i,
+.control-btn .prev i{
+  color: white;
+  font-size: 24px;
+  
+}
+
+.control-btn .next:hover,
+.control-btn .prev:hover{
+  cursor: pointer;
+}
+
+/* ----------Control End-----------*/
+
+/* -----------------Heading---------- */
+.heading .heading-left i{
+  font-size: 30px;
+}
+
+.heading .heading-left h2{
+  font-size: 25px;
+  margin: 5px;
+}
+.heading .heading-right,
+.heading .heading-right i{
+  text-align: right;
+  color: gray;
+}
+
+
+/* -----------------Heading End---------- */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-gap: 30px;
+
+}
+
+.grid2{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+

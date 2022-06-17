@@ -1,0 +1,127 @@
+.cart-items{
+    background-color: #f6f9fc;
+    height: auto;
+    padding: 50px 0;
+}
+
+.cart-items .cart-details{
+    width: 70%;
+}
+
+.cart-items .cart-total {
+    width: 30%;
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 130px;
+}
+
+.cart-list{
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+.cart-items .img {
+    width: 150px;
+    height: 150px;
+}
+
+.cart-items img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.cart-items .cart-details h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.cart-items .cart-details h4{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 50px;
+    color: rgb(106, 106, 106);
+}
+
+.cart-items h4 span {
+    color: #f26e11;
+    margin: 24px;
+    font-weight: 500;
+}
+
+.removeCart{
+    background-color: none;
+    font-size: 10px;
+    text-align: right;
+    margin-left: 32px;
+    /* margin-bottom: 100px; */
+}
+
+.cartControl{
+    margin-top: 50px;
+}
+
+.cartControl button{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.incCart{
+    background-color: none;
+}
+
+.deCart{
+    background-color: #f6f9fc;
+}
+
+.cart-total h4{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.cart-total h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #f26e11;
+}
+
+.cart-total h2{
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    color: #f26e11;
+}
+
+.no-items{
+    background-color: #f6f9fc;
+    height: 500px ;
+}
+
+.imgKosong h2{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.imgKosong h3{
+    text-align: center;
+    text-decoration: underline;
+    color: #f26e11;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.imgKosong img{
+    display: block;
+    left: 25%;
+    position: absolute;
+    width: 400px;
+}

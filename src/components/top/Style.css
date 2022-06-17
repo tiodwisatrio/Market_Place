@@ -1,0 +1,46 @@
+.topCat{
+    position: relative;
+}
+
+.topCat .box{
+    margin: 0 20px;
+}
+
+
+.topCat img{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.topCat .nametop{
+    position: relative;
+    width: 100%;
+}
+
+.topCat .nametop span {
+    background-color: #f4eee9;
+    color: #f26e11;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin: 5px;
+    top: 0;
+}
+
+.topCat .nametop .tleft{
+    left: 0;
+}
+
+.topCat .nametop .tright{
+    position: absolute;
+}
+
